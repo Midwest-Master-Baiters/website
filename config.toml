@@ -1,0 +1,5 @@
+baseURL = "http://masterbaiters.fish/"
+
+languageCode = "en-us"
+title = "Master Baiters"
+theme = "blowfish"
