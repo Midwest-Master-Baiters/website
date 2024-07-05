@@ -1,20 +1,13 @@
-## Master Baiters  Main Website
+# Master Baiters Main Site
 
-[![Hugo S3](https://github.com/Midwest-Master-Baiters/website/actions/workflows/hugo.yml/badge.svg?branch=main)](https://github.com/Midwest-Master-Baiters/website/actions/workflows/hugo.yml)
-[![Hugo S3](https://github.com/Midwest-Master-Baiters/website/actions/workflows/hugo.yml/badge.svg?branch=main&event=issues)](https://github.com/Midwest-Master-Baiters/website/actions/workflows/hugo.yml)
+[![Hugo S3](https://github.com/Midwest-Master-Baiters/website/workflows/Hugo%20S3/badge.svg)](https://github.com/Midwest-Master-Baiters/website/actions?query=workflow:"Hugo+S3")
+[![License](https://img.shields.io/badge/License-Proprietary-green)](https://github.com/Midwest-Master-Baiters/website/blob/main/LICENSE)
+[![issues - website](https://img.shields.io/github/issues/Midwest-Master-Baiters/website)](https://github.com/Midwest-Master-Baiters/website/issues)
 
+The code that drives the website [masterbaiters.fish](https://masterbaiters.fish)
 
-Describe your website project briefly here.
+---
 
-## Table of Contents
+### Setup
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Installation
-
-Provide step-by-step instructions on how to install and set up your project. Include any prerequisites or dependencies.
-
-
+Get [Hugo](https://gohugo.io/installation/)
