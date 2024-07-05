@@ -5,6 +5,8 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+env:
+  HUGO_VERSION: 0.128.2
 
 jobs:
   build:
@@ -14,8 +16,7 @@ jobs:
       - name: Check out main
         uses: actions/checkout@master
 
-      - name: Build Site
-        uses: chabad360/hugo-actions@master
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@3.0.0
         with:
-          hugoVersion: 'extended_0.128.0'
-          args: '--gc --cleanDestinationDir'
+          hugo-version: ${{ HUGO_VERSION }}
