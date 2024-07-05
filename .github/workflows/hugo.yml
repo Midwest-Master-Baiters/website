@@ -23,4 +23,10 @@ jobs:
           hugo-version: 0.128.2
 
       - name: Build
-        run: hugo --minify
+        run: hugo --gc --minify --cleanDestinationDir
+
+      - name: Upload
+        uses: actions/upload-artifact@master
+        with:
+          name: "public"
+          path: "./public/"
