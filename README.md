@@ -3,18 +3,6 @@
 [![Hugo S3](https://github.com/Midwest-Master-Baiters/website/actions/workflows/hugo.yml/badge.svg?branch=main)](https://github.com/Midwest-Master-Baiters/website/actions/workflows/hugo.yml)
 [![Hugo S3](https://github.com/Midwest-Master-Baiters/website/actions/workflows/hugo.yml/badge.svg?branch=main&event=issues)](https://github.com/Midwest-Master-Baiters/website/actions/workflows/hugo.yml)
 
+The repo that drives https://masterbaiters.fish
 
-Describe your website project briefly here.
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Installation
-
-Provide step-by-step instructions on how to install and set up your project. Include any prerequisites or dependencies.
-
-
+Powered by [Hugo](https://gohugo.io/installation/)
