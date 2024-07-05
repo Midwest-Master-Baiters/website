@@ -39,10 +39,11 @@ jobs:
           HUGO_ENVIRONMENT: production
         run: hugo --minify
       - name: Upload Build to Artifacts
-        uses: actions/upload-artifact
+        uses: actions/upload-artifact@v4
         with:
+          path: public/*
           name: public
-          path: public/
+
 
   # Deployment job
 #  deploy:
