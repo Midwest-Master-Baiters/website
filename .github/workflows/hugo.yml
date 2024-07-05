@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Check out main
-        uses: actions/checkout@master
+        uses: actions/checkout@main
 
       - name: Deploy site
         uses: plopcas/hugo-s3-action@master
