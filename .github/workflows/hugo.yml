@@ -2,9 +2,9 @@ name: Hugo S3
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
@@ -12,11 +12,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out master
+      - name: Check out main
         uses: actions/checkout@master
 
       - name: Deploy site
-        uses: plopcas/hugo-s3-action@v1.3.0
+        uses: plopcas/hugo-s3-action@master
         env:
           MINIFY: 'true'
           AWS_REGION: 'us-east-1'
